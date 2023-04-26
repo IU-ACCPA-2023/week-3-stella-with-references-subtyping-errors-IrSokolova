@@ -945,6 +945,7 @@ public class VisitTypeCheck
       return result;
     }
   }
+
   public class PatternBindingVisitor<R,A> implements org.syntax.stella.Absyn.PatternBinding.Visitor<R,A>
   {
     public R visit(org.syntax.stella.Absyn.APatternBinding p, A arg)
